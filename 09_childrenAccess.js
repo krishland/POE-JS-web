@@ -3,4 +3,4 @@ let childrenAccess = () => {
     return child.firstElementChild.textContent;
 }
 
-module.export = childrenAccess;
+module.exports = childrenAccess;
