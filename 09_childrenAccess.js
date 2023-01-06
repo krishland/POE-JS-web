@@ -1,6 +1,6 @@
 let childrenAccess = () => {
-    let firstChild = document.getElementById("menu").getElementsByTagName("li");
-    return firstChild[0].innerHTML;
+    let child = document.getElementById("menu");
+    return child.firstElementChild.textContent;
 }
 
 module.export = childrenAccess;

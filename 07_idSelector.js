@@ -1,5 +1,5 @@
-let idSelector =  document.getElementById("input").value;
-
-// console.log(idSelector);
+let idSelector = () => {
+    return document.getElementById("input").value;
+}
 
 module.exports = idSelector;
