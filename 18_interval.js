@@ -7,7 +7,6 @@ document.body.appendChild(myClock);
 function currentTime() {
     let date = new Date();
     let j = date.getDate();
-    
     let m = date.getMonth()+1;
     let a = date.getFullYear();
     let h = date.getHours();
@@ -16,7 +15,7 @@ function currentTime() {
     let time =j + "/" + m + "/" + a + " " + h + ":" + mn + ":" + s;
   
     myClock.innerText = time; 
-    let t = setTimeout(function(){ currentTime() }, 30000);
+    let t = setTimeout(currentTime, 30000);
 }
   
 currentTime();
