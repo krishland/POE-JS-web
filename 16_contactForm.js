@@ -12,6 +12,6 @@ document.querySelector("button").addEventListener("click", (e) = () => {
     let myBirth = [...document.getElementsByName("birthdate")];
     let myP = document.createElement("p");
     myP.setAttribute("id", "result");
-    myP.innerText = `name: ${myName[0].value}, age: ${myAge[0].value}, birthdate: ${myBirth[0].value}`;
+    myP.innerHTML = `name: ${myName[0].value}, age: ${myAge[0].value}, birthdate: ${myBirth[0].value}`;
     document.body.appendChild(myP);
 })
