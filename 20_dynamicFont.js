@@ -5,7 +5,7 @@ let myForm = document.getElementById("input");
 // myForm.setAttribute("type", "number");
 // myForm.setAttribute("id", "fontsize");
 
-myForm.addEventListener("input", () => {
+document.getElementById("fontsize").addEventListener("input", () => {
     let elems = document.getElementsByClassName("controlled_fontsize")
     elems = [...elems];
     elems.map(i => i.style.fontSize = myForm.value + "px");
