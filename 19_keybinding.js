@@ -12,4 +12,5 @@ document.addEventListener('keydown', (e) => {
     if (e.key === "ArrowRight") {x += 10;}		
     mySquare.style.left = x + "px";
     mySquare.style.top = y + "px";
+    console.log(mySquare.style.top)
 })
