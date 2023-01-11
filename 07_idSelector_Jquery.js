@@ -1,5 +1,2 @@
-let idSelector = () => {
-    return document.getElementById("input").value;
-}
+$("#input").val();
 
-module.exports = idSelector;

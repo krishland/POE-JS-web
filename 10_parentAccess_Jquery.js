@@ -1,5 +1,5 @@
 let parentAccess = (node) => {
-    return node.parentElement;
+    return node.parent();
 }
 
-module.exports = parentAccess;
+parentAccess();
