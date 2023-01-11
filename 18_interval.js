@@ -15,7 +15,7 @@ function currentTime() {
     let time =j + "/" + m + "/" + a + " " + h + ":" + mn + ":" + s;
   
     myClock.innerText = time; 
-    let t = setTimeout(currentTime, 30000);
+    setInterval(currentTime, 3000);
 }
   
 currentTime();
