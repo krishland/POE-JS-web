@@ -1,0 +1,1 @@
+// même principe que l’exercice précédent, mais cette fois vous devrez gérer les erreurs dans les bloc try {} catch {}
