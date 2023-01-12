@@ -6,4 +6,4 @@ const sleepThrow = (milliseconds, boolean) => {
     }, milliseconds)) 
 }
 
-// module.exports = sleepThrow;
+module.exports = sleepThrow;
