@@ -8,7 +8,7 @@ document.querySelectorAll("button").forEach((i) => {
             p.style.backgroundColor = "green"
             document.body.append(p);
 
-        } catch (e) {
+        } catch {
             let p = document.createElement("p");
             p.setAttribute("id", "error")
             p.textContent = "Fail";
