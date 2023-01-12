@@ -5,3 +5,12 @@
 // sleepThrow(2000, false); //faile
 // la fonction sleepError devra être exporté via un module.exports
 // indice: newPromise((resolve, reject) ⇒ ...));
+
+const sleepThrow = (milliseconds, boolean) => { 
+    return new Promise((resolve, reject) => setTimeout(() => {
+        if (boolean === false) { reject("failed")
+        } else { resolve("success")}
+    }, milliseconds)) 
+}
+
+module.exports = sleepThrow;
