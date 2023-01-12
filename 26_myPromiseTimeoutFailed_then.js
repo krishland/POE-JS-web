@@ -5,7 +5,7 @@ document.querySelectorAll("button").forEach((i) => {
             let p = document.createElement("p");
             p.setAttribute("id", "success")
             p.textContent = "Success";
-            p.style.backgroundColor = "green"
+            p.style.color = "green"
             document.body.append(p);
         })
 
@@ -13,7 +13,7 @@ document.querySelectorAll("button").forEach((i) => {
             let p = document.createElement("p");
             p.setAttribute("id", "error")
             p.textContent = "Fail";
-            p.style.backgroundColor = "red"
+            p.style.color = "red"
             document.body.append(p);
         })
     })
